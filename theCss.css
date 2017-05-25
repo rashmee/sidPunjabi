@@ -1,0 +1,194 @@
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+ 
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.theInner {
+    text-align: center;
+    width: 500px;
+    margin:0 auto;
+}
+
+#footer {
+	font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif; 
+	font-weight: 600;
+	float:bottom;
+	text-align:center;
+	margin-top: 20px;
+	margin-bottom: 10x;
+	clear: both;
+    height: 50px;
+	}
+
+#phEmail {
+    width: 100%;
+    text-align: center;
+}
+
+#theLogo {
+    text-align: center;
+}
+
+#homePageContent {
+/*    font-family: 'Josefin Slab', serif;*/
+    font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+    text-align: left;
+    font-size: 17px;
+    
+}
+
+#homePageContent h2 {
+    text-decoration: underline;
+}
+
+#homePageContent a {
+    text-decoration: underline;
+    color: black;
+}
+
+#homeNav {
+    text-align: center;
+    display: inline-block;
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0px;
+}
+
+#homeNav li {
+    float: left;
+    padding: 20px 20px;
+}
+
+#homeNav a {
+    display: block;
+/*    font-family: 'Josefin Slab', serif;*/
+    font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-size: 17px; 
+}
+
+.theMainMenu {
+    text-align: right;
+}
+
+.selectedMenu {
+/*    font-family: 'Josefin Slab', serif;*/
+    font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+    font-weight: 700;
+}
+
+.nav {
+    text-align: center;
+    display: inline-block;
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0px;
+}
+
+.nav li {
+    float: left;
+    padding: 20px 20px;
+}
+
+.nav a {
+    display: block;
+/*    font-family: 'Josefin Slab', serif;*/
+    font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+    text-align: center;
+    color: black;
+    text-decoration: none; 
+}
+
+
+.theContent {
+    width: 100%;
+    margin:0 auto;
+    overflow: hidden;
+}
+
+
+#sidPhoto, #sidAbout {
+    max-height: 500px;
+    float: left;
+    overflow-y: scroll;
+/*    overflow: scroll;*/
+}
+
+#sidPhoto {
+     width: 45%;
+     overflow:hidden;
+}
+
+#sidAbout {
+    width: 55%;
+/*    font-family: 'Vollkorn', serif;*/
+    font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+}
+
+#workTable {
+    width: 100%;
+/*    font-family: 'Vollkorn', serif;*/
+    font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+    text-align: center;
+}
+
+#workTable .tdCenter {
+    text-align: center;
+}
+
+#workTable td {
+    text-align: left;
+}
+
+/*
+#workTable td ul li {
+    text-align: left;
+}
+*/
+
+.theContactInner {
+    text-align: center;
+    width: 400px;
+    margin:0 auto;
+/*    font-family: 'Vollkorn', serif;*/
+    font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+}
+ legend {
+     text-align: left;
+ }
+#theValidate {
+    color: red;
+}
+#theThankYou {
+    color: rebeccapurple;
+}
+#theSorry {
+    color: red;
+}
+
+#theName {
+    font-weight: bold;
+    font-size: 40px
+}
+
+#qual {
+    font-weight: normal;
+    font-size: 19px;
+}
+
+#submit {
+    font-size: 15px;
+}
+
+#reset {
+    font-size: 15px;
+}
